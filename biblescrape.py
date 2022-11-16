@@ -16,8 +16,6 @@ driver.get("https://my.bible.com/en-GB/sign-in")
 
 # Chapter is hardcoded and sub-chapters are automated.
 
-# Credentials:  sourav.deb298@gmail.com   Basketball123
-
 driver.find_element_by_id("signin-username").send_keys("sourav.deb298@gmail.com")
 driver.find_element_by_id("signin-password").send_keys("Basketball123")
 button = driver.find_element_by_xpath("/html/body/div[2]/div/div/article/div/div/form[3]/p[5]/button")
